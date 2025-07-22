@@ -1,2 +1,18 @@
-# RainFall-App
-This project predicts whether it will rain tomorrow in Australia based on weather features like temperature, humidity, wind, and location. It uses a trained machine learning model and provides an interactive Streamlit web app for users to input values and get predictions.
+
+# Rainfall Prediction ML App
+
+This app predicts whether it will rain tomorrow based on weather data. Built with:
+- Python
+- scikit-learn
+- Streamlit
+
+## How to Run
+
+1. Install requirements:  
+   `pip install -r requirements.txt`
+
+2. Train the model:  
+   `python model_train.py`
+
+3. Run the app:  
+   `streamlit run app/app.py`
